@@ -19,9 +19,9 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      nombres: "Neiser"
-      apellidos: "Vásquez Alarcón"
-      edad: "29"
+      nombres: "Dennis"
+      apellidos: "Preciado Carrillo"
+      edad: "25"
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
