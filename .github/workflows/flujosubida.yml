@@ -15,6 +15,12 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
+    # VARIABLES DE ENTORNO
+    env:
+      nombres: "Dennis"
+      apellidos: "Preciado Carrillo"
+      edad: "27"
+
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -33,7 +39,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-      # Mi primera instrución
-      - name: Mi primer flujo de trabajo
-        run: |
-          echo Impresion fr mi primera linea de mi flujo de trabajo 
+ 
