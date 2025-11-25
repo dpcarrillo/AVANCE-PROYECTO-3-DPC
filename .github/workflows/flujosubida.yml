@@ -59,6 +59,10 @@ jobs:
         run: |
           echo "El usuario es: ${{env.user}}"
           echo "La contraseña es: ${{env.password}}"
-
+      
+      # Cuarto step - Variables abiertas
+      - name: Variables abiertas
+        run: |
+          echo "Versión de mi proyecto: ${{vars.VERSION_DE_MI_PROYECTO}}"
           
           
