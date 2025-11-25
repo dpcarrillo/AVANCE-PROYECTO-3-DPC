@@ -65,6 +65,6 @@ jobs:
       # Cuarto step - Variables abiertas
       - name: Variables abiertas
         run: |
-          echo "Versión de mi proyecto: ${{vars.VERSION_DE_MI_PROYECTO}}"
+          echo "Versión de mi proyecto: ${{env.VERSION_DE_MI_PROYECTO}}"
           
           
