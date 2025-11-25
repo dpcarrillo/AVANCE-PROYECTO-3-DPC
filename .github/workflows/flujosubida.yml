@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Integración y entrega continua
 
 # Controls when the workflow will run
 on:
@@ -32,3 +32,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      # Mi primera instrución
+      - name: Mi primer flujo de trabajo
+        run: |
+          echo Impresion fr mi primera linea de mi flujo de trabajo 
