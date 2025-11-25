@@ -40,12 +40,12 @@ jobs:
           echo test, and deploy your project.
       
       # Primer step - presentación
-      - name: presentacion
+      - name: presentación
         run: |
           echo "Nombres: $nombres"
           echo "Apellidos: $apellidos"
           echo "Edad: $edad"
 
-          
+
           
           
