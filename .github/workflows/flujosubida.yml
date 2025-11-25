@@ -49,7 +49,7 @@ jobs:
       # Segundo step - Datos generales
       - name: Datos generales
         run: |
-          echo "Carrera de ingeniería de sistemas e informática"
+          echo "Carrera de Ingeniería de sistemas e informática"
           
           
           
